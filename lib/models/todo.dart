@@ -1,4 +1,5 @@
-import 'package:map/models/task.dart';
+import '/models/task.dart';
+
 class Todo {
   String title;
   List<Task> tasks;

@@ -1,23 +1,23 @@
 import 'todo.dart';
 import 'task.dart';
 
-final MyTodolist = <Todo>[
+final myTodoList = <Todo>[
   Todo(title: "MAP Project", tasks: [
-    Task(title: "Deliverable #1: Project proposal and design", completed: true),
-    Task(title: "Deliverable #2: Prototype 1", completed: true),
-    Task(title: "Deliverable #3: Prototype 2", completed: false),
-    Task(title: "Deliverable #4: Backend", completed: false),
-    Task(title: "Deliverable #5: Release version", completed: false),
+    Task(title: "deliverable #1 Project proposal and design", completed: true),
+    Task(title: "deliverable #2 prototype 1 ", completed: true),
+    Task(title: "deliverable #3 prototype 2 ", completed: false),
+    Task(title: "deliverable #4 backend", completed: false),
+    Task(title: "deliverable #5 Realease version", completed: false)
   ]),
-  Todo(title: "Preparing for online learning",tasks: [
-    Task(title: "Deliverable #1", completed: true),
-    Task(title: "Deliverable #2", completed: false),
-    Task(title: "Deliverable #3", completed: true),
-    Task(title: "Deliverable #4", completed: false),
+  Todo(title: "Preparing for online Learning", tasks: [
+    Task(title: "deliverable #1", completed: true),
+    Task(title: "deliverable #2", completed: false),
+    Task(title: "deliverable #3", completed: true),
+    Task(title: "deliverable #4", completed: false),
   ]),
-  Todo(title: "This todo this weekened", tasks: [
-    Task(title: "Deliverable #1", completed: false),
-    Task(title: "Deliverable #2", completed: false),
-    Task(title: "Deliverable #3", completed: false),
+  Todo(title: "Things todo this weekend", tasks: [
+    Task(title: "deliverable #1", completed: false),
+    Task(title: "deliverable #2", completed: false),
+    Task(title: "deliverable #3", completed: false)
   ])
 ];
